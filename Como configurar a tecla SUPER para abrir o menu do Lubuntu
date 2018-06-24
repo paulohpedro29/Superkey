@@ -1,0 +1,18 @@
+ 1.O que fazer
+Basta mudar a string " C-escape " em " Super _ L " e voltar a fazer login.
+
+ 2. Edit
+Inicia o teu editor de texto e abre ~ /. Config / Openbox / Lubuntu-RC. Arquivo Xml file.
+
+ 3. Código
+Encontre o texto 'Lxpanelctl' e você deve ver estas linhas de código. Veja onde o 'super _ L' deve ser, Edite-o. E depois guarda-o.
+
+<!-- combinações de teclas para o menu de execução da lxpanel -- >
+"Super _ L" >
+<Action name= "Executar" >
+<Command>Lxpanelctl Menu< / command>
+< / action>
+</keybind>
+
+4. Sessão e início de sessão novamente
+Você deve ver a configuração funcionar após o login. Eu desejo que isso te faça mais feliz no lubuntu e lxde!
